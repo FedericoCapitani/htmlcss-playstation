@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* utility */
+.width100{
+    width: 100%;
+}
+.font_30{
+    font-size: 30px;
+}
+
+/* header */
+.sony{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+}
+.sony>img{
+    height: 20px;
+}
+nav a{
+    font-weight: 600;
+}
+.nav_btn{
+    background-color: #363636;
+    border-radius: 20px;
+    color: white;
+}
+nav li{
+    margin-left: 10px;
+}
+/* main */
+
+/* herop image */
+.hero_image{
+    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
+    height: 800px;
+    background-position: right;
+}
