@@ -11,7 +11,9 @@
 .font_30{
     font-size: 30px;
 }
-
+.blue_text{
+    color: var(--bs-blue);
+}
 /* header */
 .sony{
     width: 100%;
@@ -38,6 +40,6 @@ nav li{
 /* herop image */
 .hero_image{
     background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
-    height: 800px;
+    height: 700px;
     background-position: right;
 }
