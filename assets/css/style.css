@@ -3,7 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+main{
+    max-width: 1400px;
+    margin: 0 auto;
+}
 /* utility */
 .width100{
     width: 100%;
@@ -40,6 +43,12 @@ nav li{
 /* herop image */
 .hero_image{
     background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
-    height: 700px;
-    background-position: right;
+    height: 600px;
+    background-position: center;
+}
+
+/* playstation 5 */
+#ps5_img{
+    width: 400px;
+    margin: 0 auto;
 }
