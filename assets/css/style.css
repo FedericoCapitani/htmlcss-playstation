@@ -52,3 +52,40 @@ nav li{
     width: 400px;
     margin: 0 auto;
 }
+
+/* gadget playstation */
+.gadget_card{
+    color: gray;
+}
+.gadget_card img{
+    width: 80%;
+    margin: 0 auto;
+}
+.gadget_card:hover{
+    color: black;
+    border-bottom: 2px solid var(--bs-blue);
+}
+
+/* it takes 2 */
+.bg_takes2{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    height: 900px;
+    color: white;
+}
+.bg_takes2 img{
+    margin-top: 50%;
+    max-width: 100%;
+}
+.bg_takes2 h2{
+    font-size: 40px;
+}
+.bg_orange{
+    background-color: #fd7e14;
+}
+
+@media screen and (max-width:767.98px) {
+    .gadget_card p{
+        display: none;
+    }
+}
