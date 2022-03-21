@@ -3,10 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-main{
+/* main{
     max-width: 1400px;
     margin: 0 auto;
-}
+} */
 /* utility */
 .width100{
     width: 100%;
