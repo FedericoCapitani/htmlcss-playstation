@@ -4,10 +4,10 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-/* main{
-    max-width: 1400px;
-    margin: 0 auto;
-} */
+
+p{
+    color: #808080;
+}
 /* utility */
 .width100{
     width: 100%;
@@ -83,8 +83,10 @@ nav li{
     margin: 0 auto;
 }
 .gadget_card:hover{
-    color: black;
     border-bottom: 2px solid var(--bs-blue);
+}
+.gadget_card:hover p{
+    color: black;
 }
 
 /* it takes 2 */
@@ -146,6 +148,9 @@ nav li{
 
 
 @media screen and (max-width: 767.98px) {
+    .jumbotron p{
+        color: white;
+    }
     .gadget_card p{
         display: none;
     }
@@ -155,10 +160,10 @@ nav li{
     .ps_plus_section img{
         width: 70%;
     }
-    .sconti h2, .bg_takes2 h2, .social h2{
+    .presentation h2, .play_5 h2, .play_4 h2, .sconti h2, .bg_takes2 h2, .social h2{
         font-size: 40px;
     }
-    .sconti p, .ps_plus_section p, .bg_takes2 p{
+    .presentation p, .play_5 p, .play_4 p, .sconti p, .ps_plus_section p, .bg_takes2 p{
         font-size: 20px;
     }
     .sconti img{
