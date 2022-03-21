@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /* main{
     max-width: 1400px;
@@ -90,12 +91,12 @@ nav li{
 .bg_takes2{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-position: center;
-    height: 900px;
+    height: 800px;
     color: white;
 }
 .bg_takes2 img{
-    margin-top: 50%;
-    max-width: 100%;
+    margin-top: 10%;
+    max-width: 60%;
 }
 .bg_takes2 h2{
     font-size: 40px;
@@ -110,8 +111,51 @@ nav li{
     border-radius: 10px;
 }
 
-@media screen and (max-width:767.98px) {
+
+/* ps plus */
+.bg_lightgray{
+    background-color: #bebcbb;
+}
+.ps_plus > img{
+    max-width: 100%;
+}
+.bg_btn_plus{
+    background-color: #d9dadc;
+}
+
+/* playstation now */
+.bg_now{
+    background-color: #161c3b;
+}
+/* social media */
+.social img{
+    width: 48%;
+}
+
+@media screen and (max-width: 767.98px) {
     .gadget_card p{
         display: none;
+    }
+    .ps_plus{
+        display: none;
+    }
+    .ps_plus_section img{
+        width: 70%;
+    }
+    .sconti h2, .bg_takes2 h2, .social h2{
+        font-size: 50px;
+    }
+    .sconti p, .ps_plus_section p, .bg_takes2 p{
+        font-size: 25px;
+    }
+    .sconti img{
+        width: 80%;
+        margin: 0 10%;
+    }
+    .now_img{
+        display: none;
+    }
+    .social img{
+        width: 45%;
     }
 }
