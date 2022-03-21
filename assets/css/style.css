@@ -18,6 +18,9 @@ p{
 .blue_text{
     color: var(--bs-blue);
 }
+.mr_30{
+    margin-right: 30px;
+}
 /* header */
 .sony{
     width: 100%;
