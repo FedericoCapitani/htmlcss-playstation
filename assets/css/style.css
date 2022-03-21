@@ -131,6 +131,19 @@ nav li{
 .social img{
     width: 48%;
 }
+/* footer */
+#site_footer{
+    background-color: #00439c;
+    padding: 50px 0;
+}
+.footer_logo{
+    font-size: 1.2rem;
+}
+.footer_logo i{
+    font-size: 30px;
+    margin-right: 20px;
+}
+
 
 @media screen and (max-width: 767.98px) {
     .gadget_card p{
@@ -143,10 +156,10 @@ nav li{
         width: 70%;
     }
     .sconti h2, .bg_takes2 h2, .social h2{
-        font-size: 50px;
+        font-size: 40px;
     }
     .sconti p, .ps_plus_section p, .bg_takes2 p{
-        font-size: 25px;
+        font-size: 20px;
     }
     .sconti img{
         width: 80%;
