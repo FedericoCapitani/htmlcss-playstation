@@ -66,9 +66,13 @@ nav li{
 /* playstation 5 */
 #ps5_img{
     width: 400px;
-    margin: 0 auto;
+    margin-left: 200px;
 }
-
+ @media screen and (max-width: 991.98px) {
+     #ps5_img{
+         margin-left: 0;
+     }
+ }
 /* gadget playstation */
 .gadget_card{
     color: gray;
